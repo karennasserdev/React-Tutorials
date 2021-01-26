@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React, { Children, cloneElement } from 'react';
+import React, { cloneElement } from 'react';
 
 
 export default (props) => {
