@@ -10,12 +10,12 @@ export default props => {
     const [idade, setIdade] = useState(0)
     const [nerd, setNerd] = useState(false)
 
+    //Ao clicar o estado atualiza o noome idade e nerd para od dados que recebe do filho
     function fornecerInformacoes(nome, idade, nerd) {
         setNome(nome)
         setIdade(idade)
         setNerd(nerd)
     }
-
 
     return (
         <div>
