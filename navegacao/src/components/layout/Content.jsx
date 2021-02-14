@@ -21,7 +21,6 @@ const Content = props => (
             <Route exact path='/'>
                 <Home />
             </Route>
-
             <Route path='*'>
                 <NotFound />
             </Route>
